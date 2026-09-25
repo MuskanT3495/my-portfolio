@@ -479,13 +479,12 @@
           <path d="M8.1 6H15.9M7.3 8.1L10.7 15.9M16.7 8.1L13.3 15.9" stroke="#5B6B7A" stroke-width="1.2"/>
         </svg>
       </span>
-      muskan<span> </span>tamboli
+      muskan<span>@</span>tamboli
     </div>
     <ul class="nav-links">
       <li><a href="#about">about</a></li>
       <li><a href="#skills">skills</a></li>
       <li><a href="#projects">projects</a></li>
-      <li><a href="#education">education</a></li>
       <li><a href="#contact">contact</a></li>
     </ul>
   </div>
@@ -588,6 +587,7 @@
       <span>Pune, Maharashtra, India</span>
       <a href="mailto:tambolimuskan013@gmail.com">tambolimuskan013@gmail.com</a>
       <a href="https://www.linkedin.com/in/muskan-tamboli-92b98633b" target="_blank" rel="noopener">linkedin.com/in/muskan-tamboli</a>
+      <a href="https://github.com/muskant3495" target="_blank" rel="noopener">github.com/muskant3495</a>
     </div>
   </section>
 
@@ -597,7 +597,7 @@
         <h2>About</h2>
         <span class="tag">01_profile</span>
       </div>
-      <div class="about-grid">
+      <div class="about-grid" style="grid-template-columns: 1fr; max-width: 640px;">
         <p>
           I'm an MCA graduate who got hooked on infrastructure after deploying my first server on AWS EC2.
           Since then I've spent my time getting hands-on with Linux administration, core AWS services, and
@@ -605,12 +605,6 @@
           I like the part of engineering where something that used to take ten manual steps ends up running
           on its own, and that's the direction I'm building toward: cloud infrastructure and DevOps automation.
         </p>
-        <div class="facts">
-          <div><b>Based in</b><br>Pune, Maharashtra, India</div>
-          <div><b>Studying</b><br>MCA, SPPU (2024–2026)</div>
-          <div><b>Certified</b><br>AWS Cloud Practitioner Essentials</div>
-          <div><b>Looking for</b><br>Entry-level Cloud / DevOps roles</div>
-        </div>
       </div>
     </div>
   </section>
@@ -702,36 +696,20 @@
         </ul>
       </div>
 
-      <div class="project building">
+      <div class="project">
         <div class="project-top">
           <h3>CI/CD Pipeline for Static Site Deployment</h3>
-          <span class="building-tag">in progress</span>
         </div>
         <div class="stack">
           <span>GitHub Actions</span><span>AWS S3</span><span>IAM</span>
         </div>
         <ul>
-          <li>Building an automated pipeline that deploys a static website to AWS S3 on every push to main.</li>
-          <li>Using GitHub Secrets and a least-privilege IAM user to keep credentials out of the codebase.</li>
+          <li>Built an automated CI/CD pipeline that deploys this very portfolio to AWS S3 on every push to main — zero manual uploads.</li>
+          <li>Configured a least-privilege IAM user and stored credentials securely using GitHub Secrets, keeping keys out of the codebase.</li>
+          <li>Diagnosed and resolved real pipeline issues along the way — a YAML syntax error, a secrets name mismatch, and an exposed key caught by GitHub's secret scanning (revoked and rotated immediately).</li>
         </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="education">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Education</h2>
-        <span class="tag">04_history</span>
-      </div>
-      <div class="timeline">
-        <div class="t-item">
-          <h3>Master of Computer Applications (MCA)</h3>
-          <div class="meta">Savitribai Phule Pune University · 2024–2026 · CGPA 7.86</div>
-        </div>
-        <div class="t-item">
-          <h3>Bachelor of Business Administration in Computer Application (BBA-CA)</h3>
-          <div class="meta">Savitribai Phule Pune University · 2024 · CGPA 8.54</div>
+        <div class="stack" style="margin-top: 14px;">
+          <a href="https://github.com/muskant3495/my-portfolio" target="_blank" rel="noopener" style="font-family: var(--mono); font-size: 0.78rem; color: var(--ok); text-decoration: none; border-bottom: 1px solid rgba(47,217,197,0.35);">View repo &amp; workflow →</a>
         </div>
       </div>
     </div>
@@ -745,7 +723,7 @@
         <div class="contact-list">
           <a href="mailto:tambolimuskan013@gmail.com">tambolimuskan013@gmail.com</a>
           <a href="https://www.linkedin.com/in/muskan-tamboli-92b98633b" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://github.com/MuskanT3495" target="_blank" rel="noopener">Github</a>
+          <a href="https://github.com/muskant3495" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
     </div>
